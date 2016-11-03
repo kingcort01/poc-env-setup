@@ -15,7 +15,6 @@ const runSequence = require('run-sequence');
 const source = require('vinyl-source-stream');
 const buffer = require('vinyl-buffer');
 const watchify = require('watchify');
-const {argv} = require('yargs');
 
 // Configuration
 const src = 'app';

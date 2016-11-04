@@ -1,14 +1,29 @@
 import React, {Component} from 'react';
+import TaskList from './main/task_list';
 
-class App extends Component {
-  render() {
-    console.log("TEST");
-    return (
-      <div>
-         AAAA BBBB CCCC DDDD EEEE DDDD FFFF GGG HHH IIII YYYY OOO KKKK LLLL MMMM NNNN OOO
-      </div>
-    );
+class App extends Component{
+
+  constructor(props){
+    super(props)
   }
+
+  render(){
+
+    return(
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <h1 className="page-header">Task Logger BETA 0.0.1
+              </h1>
+            </div>
+          </div>
+          <TaskList/>
+        </div>
+    )
+
+  }
+
+
 }
 
 export default App;

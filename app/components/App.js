@@ -2,9 +2,10 @@ import React, {Component} from 'react';
 
 class App extends Component {
   render() {
+    console.log("TEST");
     return (
       <div>
-        Welcomasdf esasd fads fad fsagd f sadfs
+         AAAA BBBB CCCC DDDD EEEE DDDD FFFF GGG HHH IIII YYYY OOO KKKK LLLL MMMM NNNN OOO
       </div>
     );
   }

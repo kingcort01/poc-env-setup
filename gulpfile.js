@@ -29,18 +29,6 @@ const config = {
   }
 };
 
-// Browserify configuration
-const b = browserify({
-  entries: [config.paths.entry],
-  debug: true,
-  plugin: [watchify],
-  cache: {},
-  packageCache: {}
-})
-.transform('babelify');
-b.on('update', bundle);
-b.on('log', gutil.log);
-
 /* Gulp tasks */
 
 // Clean 'dist' directory
@@ -97,7 +85,9 @@ gulp.task('watch', () => {
 
   gulp.watch(config.paths.html, ['html', reload]);
   gulp.watch(config.paths.css, ['css', reload]);
-  gulp.watch(config.paths.js, ['lint', reload]);
+  gulp.watch(config.paths.js, () => {
+    runSequence('lint', 'js', reload);
+  });
 });
 
 // Default task
@@ -107,6 +97,17 @@ gulp.task('default', (cb) => {
 
 // Bundles JS using browserify
 function bundle() {
+
+  const b = browserify({
+    entries: [config.paths.entry],
+    debug: true,
+    plugin: [watchify],
+    cache: {},
+    packageCache: {}
+  }).transform('babelify');
+  b.on('update', bundle);
+  b.on('log', gutil.log);
+
   return b.bundle()
   .on('error', gutil.log.bind(gutil, 'Browserify Error'))
   .pipe(source('bundle.js'))

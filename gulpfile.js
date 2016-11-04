@@ -97,9 +97,7 @@ gulp.task('watch', () => {
 
   gulp.watch(config.paths.html, ['html', reload]);
   gulp.watch(config.paths.css, ['css', reload]);
-  gulp.watch(config.paths.js, [() => {
-    runSequence('lint');
-  }, reload]);
+  gulp.watch(config.paths.js, ['lint', reload]);
 });
 
 // Default task

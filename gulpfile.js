@@ -15,6 +15,8 @@ const runSequence = require('run-sequence');
 const source = require('vinyl-source-stream');
 const buffer = require('vinyl-buffer');
 const watchify = require('watchify');
+const styleguide = require('devbridge-styleguide');
+const liveServer = require("live-server");
 
 // Configuration
 const src = 'app';
@@ -30,6 +32,28 @@ const config = {
 };
 
 /* Gulp tasks */
+
+gulp.task('test-styleguide', function(cb){
+
+  runSequence('clean', 'lint', 'html', 'css', 'js', 'fonts', 'start-styleguide', cb);
+
+});
+
+gulp.task('start-styleguide', function () {
+  styleguide.startServer({
+    styleguidePath: 'styleguide'
+  });
+
+  var params = {
+    port: 8080, // Set the server port. Defaults to 8080.
+    root: config.paths.baseDir,
+    file: "index.html", // When set, serve this file for every 404 (useful for single-page applications)
+    wait: 100, // Waits for all changes, before reloading. Defaults to 0 sec.
+    logLevel: 2 // 0 = errors only, 1 = some, 2 = lots
+  };
+  liveServer.start(params);
+
+});
 
 // Clean 'dist' directory
 gulp.task('clean', () => {

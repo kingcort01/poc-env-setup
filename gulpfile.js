@@ -28,16 +28,14 @@ const config = {
     js: src + '/**/*.js',
     css: src + '/**/*.scss',
     fonts: src + '/fonts/**/*',
-    styleguide: src + '/styleguide/**/*'
+    styleguide: 'styleguide/**/*'
   }
 };
 
 /* Gulp tasks */
 
 gulp.task('start-styleguide', ['clone-styleguide'], function () {
-  styleguide.startServer({
-    styleguidePath: 'dist/styleguide'
-  });
+  styleguide.startServer();
 
 });
 

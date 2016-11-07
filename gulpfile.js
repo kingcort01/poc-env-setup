@@ -27,33 +27,26 @@ const config = {
     entry: src + '/index.js',
     js: src + '/**/*.js',
     css: src + '/**/*.scss',
-    fonts: src + '/fonts/**/*'
+    fonts: src + '/fonts/**/*',
+    styleguide: src + '/styleguide/**/*'
   }
 };
 
 /* Gulp tasks */
 
-gulp.task('test-styleguide', function(cb){
-
-  runSequence('clean', 'lint', 'html', 'css', 'js', 'fonts', 'start-styleguide', cb);
-
-});
-
-gulp.task('start-styleguide', function () {
+gulp.task('start-styleguide', ['clone-styleguide'], function () {
   styleguide.startServer({
-    styleguidePath: 'styleguide'
+    styleguidePath: 'dist/styleguide'
   });
 
-  var params = {
-    port: 8080, // Set the server port. Defaults to 8080.
-    root: config.paths.baseDir,
-    file: "index.html", // When set, serve this file for every 404 (useful for single-page applications)
-    wait: 100, // Waits for all changes, before reloading. Defaults to 0 sec.
-    logLevel: 2 // 0 = errors only, 1 = some, 2 = lots
-  };
-  liveServer.start(params);
-
 });
+
+// Copies styleguide to 'dist' directory
+gulp.task('clone-styleguide', () => {
+  return gulp.src(config.paths.styleguide)
+      .pipe(gulp.dest(config.paths.baseDir + '/styleguide'));
+});
+
 
 // Clean 'dist' directory
 gulp.task('clean', () => {
@@ -116,7 +109,7 @@ gulp.task('watch', () => {
 
 // Default task
 gulp.task('default', (cb) => {
-  runSequence('clean', 'lint', 'html', 'css', 'js', 'fonts', 'watch', cb);
+  runSequence('clean', 'lint', 'html', 'css', 'js', 'fonts', 'watch', 'start-styleguide', cb);
 });
 
 // Bundles JS using browserify

@@ -36,7 +36,6 @@ const config = {
 
 gulp.task('start-styleguide', ['clone-styleguide'], function () {
   styleguide.startServer();
-
 });
 
 // Copies styleguide to 'dist' directory
@@ -103,6 +102,9 @@ gulp.task('watch', () => {
   gulp.watch(config.paths.js, () => {
     runSequence('lint', 'js', reload);
   });
+
+  gulp.watch(config.paths.styleguide, ['clone-styleguide', reload]);
+
 });
 
 // Default task

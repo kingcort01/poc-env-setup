@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2,
+    "name": "Qui",
+    "code": "",
+    "description": "",
+    "inlineCss": "#snippet { \n  \n}",
+    "includeJs": "false",
+    "isEdited": false,
+    "isDeleted": false
+  },
+  {
+    "id": 3,
+    "name": "Menu",
+    "code": "<div>\n    FINE\n</div>",
+    "description": "Menu",
+    "inlineCss": "#snippet { \n  \n}",
+    "includeJs": "true",
+    "isEdited": false,
+    "isDeleted": false
+  }
+]

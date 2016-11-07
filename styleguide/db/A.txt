@@ -1,0 +1,32 @@
+[
+  {
+    "id": 4,
+    "name": "Menu Horizontal",
+    "code": "<div>Horizontal</div>",
+    "description": "Horizontal Menu",
+    "inlineCss": "#snippet { \n  color: red;\n}",
+    "includeJs": "true",
+    "isEdited": false,
+    "isDeleted": false
+  },
+  {
+    "id": 5,
+    "name": "Regional Menu",
+    "code": "asdkfljdsalkf \nasdfdsa\nfdsaf",
+    "description": "",
+    "inlineCss": "#snippet { \n  \n}",
+    "includeJs": "true",
+    "isEdited": false,
+    "isDeleted": false
+  },
+  {
+    "id": 6,
+    "name": "Profile Menu",
+    "code": "<div>\n    Profile\n</div>",
+    "description": "",
+    "inlineCss": "#snippet { \n  color: blue;\n}",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
+  }
+]

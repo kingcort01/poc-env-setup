@@ -2,7 +2,7 @@
   "projectName": "Styleguide Sample",
   "projectUrl": "",
   "projectLogo": "",
-  "jsResources": [],
+  "jsResources": ["../dist/bundle.js"],
   "viewportWidths": [
     480,
     768,

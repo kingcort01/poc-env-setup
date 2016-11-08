@@ -18,5 +18,15 @@
     "includeJs": "true",
     "isEdited": true,
     "isDeleted": false
+  },
+  {
+    "id": 4,
+    "name": "The App",
+    "code": "<div id=\"app\">\n    <App/>\n</div>",
+    "description": "",
+    "inlineCss": "#snippet { \n  \n}",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
   }
 ]

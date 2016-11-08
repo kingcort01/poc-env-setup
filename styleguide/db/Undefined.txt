@@ -1,12 +1,1 @@
-[
-  {
-    "id": 1,
-    "name": "asdfdsaf",
-    "code": "",
-    "description": "",
-    "inlineCss": "#snippet { \n  \n}",
-    "includeJs": "false",
-    "isEdited": false,
-    "isDeleted": false
-  }
-]
+[]

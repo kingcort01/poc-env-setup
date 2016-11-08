@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="055377f0-08a1-4d4f-a2cd-4ad8ef2e95ef" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styleguide/db/A.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styleguide/db/TEST.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styleguide/db/qwewqe.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/config.txt" afterPath="$PROJECT_DIR$/styleguide/config.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/content/icons/angle-arrow-down.svg" afterPath="$PROJECT_DIR$/styleguide/content/icons/angle-arrow-down.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/content/icons/code-css.svg" afterPath="$PROJECT_DIR$/styleguide/content/icons/code-css.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/content/icons/code-html.svg" afterPath="$PROJECT_DIR$/styleguide/content/icons/code-html.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/content/icons/code.svg" afterPath="$PROJECT_DIR$/styleguide/content/icons/code.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/content/icons/description.svg" afterPath="$PROJECT_DIR$/styleguide/content/icons/description.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/content/icons/drag.svg" afterPath="$PROJECT_DIR$/styleguide/content/icons/drag.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/content/icons/pencil.svg" afterPath="$PROJECT_DIR$/styleguide/content/icons/pencil.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/content/icons/trash.svg" afterPath="$PROJECT_DIR$/styleguide/content/icons/trash.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/content/main.css" afterPath="$PROJECT_DIR$/styleguide/content/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/db/Undefined.txt" afterPath="$PROJECT_DIR$/styleguide/db/Undefined.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/db/categories.txt" afterPath="$PROJECT_DIR$/styleguide/db/categories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/db/sassdata.txt" afterPath="$PROJECT_DIR$/styleguide/db/sassdata.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/db/uniques.txt" afterPath="$PROJECT_DIR$/styleguide/db/uniques.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/index.html" afterPath="$PROJECT_DIR$/styleguide/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/js/jquery.modal.js" afterPath="$PROJECT_DIR$/styleguide/js/jquery.modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/js/snippets.js" afterPath="$PROJECT_DIR$/styleguide/js/snippets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/js/views.js" afterPath="$PROJECT_DIR$/styleguide/js/views.js" />
     </list>
     <ignored path="poc-env-tasklogger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,11 +42,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="242">
+              <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uniques.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styleguide/db/uniques.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categories.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styleguide/db/categories.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -96,8 +105,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="775">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -142,6 +151,8 @@
         <option value="$PROJECT_DIR$/app/styleguide/config.txt" />
         <option value="$PROJECT_DIR$/styleguide/config.txt" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/styleguide/db/uniques.txt" />
+        <option value="$PROJECT_DIR$/styleguide/db/categories.txt" />
       </list>
     </option>
   </component>
@@ -202,6 +213,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="poc-env-tasklogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-env-tasklogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-env-tasklogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styleguide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-env-tasklogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poc-env-tasklogger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styleguide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -693,16 +736,16 @@
       <workItem from="1478441519054" duration="329000" />
       <workItem from="1478442193396" duration="1874000" />
       <workItem from="1478480834979" duration="7885000" />
-      <workItem from="1478572325474" duration="1200000" />
+      <workItem from="1478572325474" duration="1516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35078000" />
+    <option name="totallyTimeSpent" value="35394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -712,7 +755,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32503113" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32503113" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -764,7 +807,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/components/home/HomePage.js" />
     <entry file="file://$PROJECT_DIR$/app/components/contact/ContactPage.js" />
     <entry file="file://$PROJECT_DIR$/app/components/common/Header.js" />
     <entry file="file://$PROJECT_DIR$/app/components/about/AboutPage.js" />
@@ -1026,14 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1046,13 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styleguide/db/categories.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1104,10 +1131,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styleguide/db/uniques.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styleguide/db/categories.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding />
         </state>
       </provider>

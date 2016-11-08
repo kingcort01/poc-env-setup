@@ -32,6 +32,7 @@ const config = {
 };
 
 /* Gulp tasks */
+
 // Clean 'dist' directory
 gulp.task('clean', () => {
   return del(['dist/**/*']);
@@ -89,6 +90,9 @@ gulp.task('watch', () => {
   gulp.watch(config.paths.js, () => {
     runSequence('lint', 'js', reload);
   });
+
+  gulp.watch(config.paths.styleguide, ['clone-styleguide', reload]);
+
 });
 
 //Run styleguide in parallel

@@ -1,7 +1,56 @@
 [
   {
     "name": "theme",
-    "colors": {},
-    "typography": []
+    "colors": {
+      "#000000": [
+        "$color-black"
+      ],
+      "#d26262": [
+        "$color-lighter-2"
+      ],
+      "#141823": [
+        "$color-dark"
+      ]
+    },
+    "typography": [
+      {
+        "variable": "$font-proxima",
+        "value": "'Proxima Nova', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 300,
+            "italic": false
+          },
+          {
+            "weight": 700,
+            "italic": false
+          }
+        ]
+      },
+      {
+        "variable": "$font-proxima-alternative",
+        "value": "'Neue Helvetica W01', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "weight": 400,
+            "italic": true
+          }
+        ]
+      },
+      {
+        "variable": "$font-newsgothic",
+        "value": "'News Gothic Std', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 700,
+            "italic": false
+          }
+        ]
+      }
+    ]
   }
 ]

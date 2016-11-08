@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2,
+    "name": "Regional Menu",
+    "code": "Test",
+    "description": "",
+    "inlineCss": "#snippet { \n  \n}",
+    "includeJs": "false",
+    "isEdited": false,
+    "isDeleted": false
+  }
+]

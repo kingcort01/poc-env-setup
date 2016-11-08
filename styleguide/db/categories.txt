@@ -2,5 +2,17 @@
   {
     "name": "Undefined",
     "id": 0
+  },
+  {
+    "id": 1,
+    "name": "First Interface"
+  },
+  {
+    "id": 2,
+    "name": "Second Interface"
+  },
+  {
+    "id": 3,
+    "name": "Third Interface"
   }
 ]

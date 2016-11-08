@@ -16,7 +16,7 @@ const source = require('vinyl-source-stream');
 const buffer = require('vinyl-buffer');
 const watchify = require('watchify');
 const styleguide = require('devbridge-styleguide');
-const liveServer = require("live-server");
+const exec = require('child_process').exec;
 
 // Configuration
 const src = 'app';
@@ -27,25 +27,11 @@ const config = {
     entry: src + '/index.js',
     js: src + '/**/*.js',
     css: src + '/**/*.scss',
-    fonts: src + '/fonts/**/*',
-    styleguide: 'styleguide/**/*'
+    fonts: src + '/fonts/**/*'
   }
 };
 
 /* Gulp tasks */
-
-gulp.task('start-styleguide', ['clone-styleguide'], function () {
-  styleguide.startServer();
-
-});
-
-// Copies styleguide to 'dist' directory
-gulp.task('clone-styleguide', () => {
-  return gulp.src(config.paths.styleguide)
-      .pipe(gulp.dest(config.paths.baseDir + '/styleguide'));
-});
-
-
 // Clean 'dist' directory
 gulp.task('clean', () => {
   return del(['dist/**/*']);
@@ -105,9 +91,15 @@ gulp.task('watch', () => {
   });
 });
 
+//Run styleguide in parallel
+gulp.task('styleguide', function () {
+  styleguide.startServer();
+  exec('live-server --open=styleguide');
+});
+
 // Default task
 gulp.task('default', (cb) => {
-  runSequence('clean', 'lint', 'html', 'css', 'js', 'fonts', 'watch', 'start-styleguide', cb);
+  runSequence('clean', 'lint', 'html', 'css', 'js', 'fonts', 'watch', 'styleguide', cb);
 });
 
 // Bundles JS using browserify

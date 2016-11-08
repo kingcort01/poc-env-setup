@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Profile",
+    "code": "<div>\n    <ul>\n        <li>A</li>\n        <li>B</li>\n        <li>C</li>\n    </ul>\n</div>",
+    "description": "",
+    "inlineCss": "#snippet { \n  color: red;\n}",
+    "includeJs": "true",
+    "isEdited": false,
+    "isDeleted": false
+  },
+  {
+    "id": 3,
+    "name": "Search Menu",
+    "code": "<div>\n    <label>Search : </label>\n    <input type=\"text\">\n    <button class=\"btn btn-lg\">Search</button>\n</div>",
+    "description": "",
+    "inlineCss": "#snippet { \n  color: $color-lighter-2;\n}\n\n.btn{\n\n  color: #54bce8;\n  &-lg{\n    font-size: 40px;\n  }\n\n}",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
+  }
+]
